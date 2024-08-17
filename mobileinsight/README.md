@@ -20,7 +20,8 @@ To run the MobileInsight website locally, follow these steps:
     ```
 
 2. **Install Dependencies**:
-    ```bashgit
+    ```bash
+    npm install
     ```
 
 3. **Start the Development Server**:
