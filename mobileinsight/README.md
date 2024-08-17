@@ -4,13 +4,10 @@ Welcome to **MobileInsight**, your premier destination for the latest smartphone
 
 ## Table of Contents
 
-- [Features](#features)
 - [Installation](#installation)
 - [Usage](#usage)
 - [Technologies Used](#technologies-used)
-- [Contributing](#contributing)
 - [License](#license)
-- [Contact](#contact)
 
 ## Installation
 
@@ -23,8 +20,7 @@ To run the MobileInsight website locally, follow these steps:
     ```
 
 2. **Install Dependencies**:
-    ```bash
-    npm install
+    ```bashgit
     ```
 
 3. **Start the Development Server**:
