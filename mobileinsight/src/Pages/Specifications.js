@@ -8,7 +8,7 @@ function Specifications() {
   const profileId = params.id;
   console.log(profileId);
   useEffect(() => {
-    fetch(`http://localhost:3000/phones/${profileId}`)
+    fetch(`https://mobileinsight-server.onrender.com/phones/${profileId}`)
       .then((r) => r.json())
       .then((data) => setProfile(data))
       .catch((error) => console.error(error));

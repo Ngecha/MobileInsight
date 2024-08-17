@@ -25,7 +25,7 @@ function NewPhone() {
   // submit function
   const handleSubmit = (e) => {
     e.preventDefault();
-    fetch("http://localhost:3000/phones", {
+    fetch("https://mobileinsight-server.onrender.com", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
@@ -87,7 +87,7 @@ function NewPhone() {
           <label className="form-label">Processor</label>
           <input
             type="text"
-            name=""
+            name="processor"
             className="form-control"
             onChange={handleChange}
           />
@@ -96,7 +96,7 @@ function NewPhone() {
           <label className="form-label">Battery</label>
           <input
             type="text"
-            name="processor"
+            name="battery"
             className="form-control"
             onChange={handleChange}
           />

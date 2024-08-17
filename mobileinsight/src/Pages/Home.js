@@ -10,7 +10,7 @@ function Home() {
   const [search, onSearch] = useState([]);
 
   useEffect(() => {
-    fetch("http://localhost:3000/phones")
+    fetch("https://mobileinsight-server.onrender.com/phones")
       .then((r) => r.json())
       .then((phones) => {
         setPageOne(phones);
